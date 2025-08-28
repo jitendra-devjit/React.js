@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const [color, setColor] = useState("lightblue");
   const arr = [
-    "lightgreen","Crimson","cornflowerblue","silver","lavender","orange","pink","brown","gold","hotpink","lightskyblue","lightblue","black","gray","lightcoral","lightcyan","lightgoldenrodyellow","purple","violet"
+    "lightgreen","Crimson","cornflowerblue","silver","lavender","orange","pink","brown","gold","hotpink","lightskyblue","lightblue","gray","lightcoral","lightcyan","lightgoldenrodyellow","purple","violet"
   ];
   return (
     <div
@@ -16,7 +16,7 @@ function App() {
           {arr.map((arr) => (
             <div>
               <button
-                className="outline-none px-3 py-2 rounded-full text-black text-shadow-xs shadow-sm font-medium border-2 cursor-pointer border-black"
+                className="outline-none px-3 py-2 rounded-full text-black text-shadow-xs shadow-sm font-medium  cursor-pointer drop-shadow-lg"
                 onClick={() => setColor(arr)}
                 style={{ backgroundColor: arr }}
               >
